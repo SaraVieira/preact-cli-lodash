@@ -1,13 +1,13 @@
 {
   "name": "preact-cli-lodash",
   "description": "Minify build when using lodash and preact-cli",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "src/index.js",
   "author": "https://github.com/SaraVieira",
   "repository": "https://github.com/SaraVieira/preact-cli-lodash",
   "license": "MIT",
   "scripts": {
-    "test": "eslint src/"
+    "publish": "publish-please"
   },
   "devDependencies": {
     "babel-cli": "*",
@@ -16,6 +16,7 @@
     "coveralls": "*",
     "isparta": "*",
     "mocha": "*",
+    "publish-please": "^2.3.1",
     "sinon": "*"
   },
   "dependencies": {
