@@ -1,14 +1,5 @@
 # preact-cli-lodash
 
-![Build Status](https://img.shields.io/travis/https://github.com/SaraVieira/preact-cli-lodash.svg)
-![Coverage](https://img.shields.io/coveralls/https://github.com/SaraVieira/preact-cli-lodash.svg)
-![Downloads](https://img.shields.io/npm/dm/preact-cli-lodash.svg)
-![Downloads](https://img.shields.io/npm/dt/preact-cli-lodash.svg)
-![npm version](https://img.shields.io/npm/v/preact-cli-lodash.svg)
-![dependencies](https://img.shields.io/david/https://github.com/SaraVieira/preact-cli-lodash.svg)
-![dev dependencies](https://img.shields.io/david/dev/https://github.com/SaraVieira/preact-cli-lodash.svg)
-![License](https://img.shields.io/npm/l/preact-cli-lodash.svg)
-
 Minify build when using lodash and preact-cli
 
 ## Getting Started
@@ -19,10 +10,41 @@ Install it via npm:
 npm install preact-cli-lodash
 ```
 
-And include in your project:
+yarn:
+
+```shell
+yarn add preact-cli-lodash --dev
+```
+
+This will install:
+
+  - [lodash](https://lodash.com/)
+  - [lodash-webpack-plugin](https://www.npmjs.com/package/lodash-webpack-plugin)
+  - [babel-plugin-lodash](https://github.com/lodash/babel-plugin-lodash)
+
+And include in your project by creating a `preact.config.js`
 
 ```javascript
-import preact-cli-lodash from 'preact-cli-lodash';
+const preactCliLodash = require('preact-cli-lodash');
+
+export default function (config) {
+	preactCliLodash(config);
+}
+```
+
+## Arguments
+
+If you want to pass options to the `lodash-webpack-plugin` you can as the second argument of the `preactCliLodash` function like so:
+
+```javascript
+const preactCliLodash = require('preact-cli-lodash');
+
+export default function (config) {
+	preactCliLodash(config, {
+    'collections': true,
+    'paths': true
+  });
+}
 ```
 
 ## License
