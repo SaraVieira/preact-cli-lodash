@@ -2,7 +2,7 @@ let LodashModuleReplacementPlugin = require('lodash-webpack-plugin')
 let babelPluginLodash = require('babel-plugin-lodash')
 const preactCliLodash = (config, args = {}) => {
     if(!config) {
-        throw Error('You need to pass the webpack config to preactCliLodash');
+        throw Error('You need to pass the webpack config to preactCliLodash')
     }
 
     const loaders = config.module.loaders
