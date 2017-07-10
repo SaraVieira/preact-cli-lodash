@@ -1,7 +1,7 @@
 {
   "name": "preact-cli-lodash",
   "description": "Minify build when using lodash and preact-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "src/index.js",
   "author": "https://github.com/SaraVieira",
   "repository": "https://github.com/SaraVieira/preact-cli-lodash",
@@ -9,7 +9,7 @@
   "scripts": {
     "publish": "publish-please",
     "prepublish": "npm run lint",
-    "lint": "eslint src/",
+    "lint": "eslint src/"
   },
   "devDependencies": {
     "publish-please": "^2.3.1"
