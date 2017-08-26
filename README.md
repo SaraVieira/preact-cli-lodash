@@ -1,5 +1,7 @@
 # preact-cli-lodash
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SaraVieira/preact-cli-lodash.svg)](https://greenkeeper.io/)
+
 Minify build when using lodash and preact-cli
 
 ## Getting Started
