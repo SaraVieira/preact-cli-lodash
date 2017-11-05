@@ -1,5 +1,9 @@
 # preact-cli-lodash
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/preact-cli-lodash'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/TcwA1EShekGpPzRyQvGn9ysQ/SaraVieira/preact-cli-lodash.svg' />
+</a>
+
 Minify build when using lodash and preact-cli
 
 ## Getting Started
